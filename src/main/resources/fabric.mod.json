@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "pyke",
+  "version": "${version}",
+
+  "name": "Pyke Mod",
+  "description": "A Mod that adds Pyke abilities from the game League of Legends",
+  "authors": [
+    "Arcade Fortune"
+  ],
+  "contact": {
+    "homepage": "arcadefortune",
+    "sources": ""
+  },
+
+  "license": "MIT",
+  "icon": "assets/pyke/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.arcadefortune.pyke.DeathFromBelow"
+    ]
+  },
+  "mixins": [
+
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
